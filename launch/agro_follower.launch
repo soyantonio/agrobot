@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="agrobot" name="robotfollower" type="object_follower.py" output="screen" />
+</launch>
