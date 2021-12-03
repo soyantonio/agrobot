@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="agrobot" type="tomatoe.py" name="tomato_node" output="screen"/>
+</launch>

@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find agrobot)/launch/agro_mapping.launch"/>
+    <include file="$(find agrobot)/launch/agro_navigation.launch"/>
+    <include file="$(find agrobot)/launch/agro_tomato.launch"/>
+</launch>
