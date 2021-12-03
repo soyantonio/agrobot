@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find rplidar_ros)/launch/rplidar_a3.launch"/>
+    <include file="$(find usb_cam)/launch/usb_cam-test.launch"/>
+</launch>
